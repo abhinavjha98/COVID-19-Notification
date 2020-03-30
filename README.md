@@ -2,10 +2,6 @@
 
 
 Covid -19 Notification System will detect and tell the corona patents across various states.
-
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
 ---
 ###  Features!
 - The notification will tell us the folowing features
@@ -20,8 +16,8 @@ Covid -19 Notification System will detect and tell the corona patents across var
 
   - Plyer is used for Windows Notifications
   ```sh
-$ from plyer import notification
-$ def notifyMe(title,message):
+from plyer import notification
+def notifyMe(title,message):
 	notification.notify(
 			title = title,
 			message = message,
@@ -31,9 +27,9 @@ $ def notifyMe(title,message):
 ```
   - Beautiful Soup is used for data extraction from the website https://www.mohfw.gov.in/
    ```sh
-$ from bs4 import BeautifulSoup
-$ myHtmlData = getData("https://www.mohfw.gov.in/")
-$ soup = BeautifulSoup(myHtmlData, 'html.parser')
+from bs4 import BeautifulSoup
+myHtmlData = getData("https://www.mohfw.gov.in/")
+soup = BeautifulSoup(myHtmlData, 'html.parser')
 ```
 ---
 ### Author Info
