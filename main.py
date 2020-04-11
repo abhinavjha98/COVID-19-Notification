@@ -15,7 +15,7 @@ def getData(url):
 	r = requests.get(url)
 	return r.text
 if __name__ == '__main__':
-	# notifyMe("Harry","Lets stop the spread of this ")
+	notifyMe("Abhinav","Lets stop the spread of this ")
 	
 	myHtmlData = getData("https://www.mohfw.gov.in/")
 	soup = BeautifulSoup(myHtmlData, 'html.parser')
